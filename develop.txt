@@ -1,0 +1,6 @@
+FROM jason3e7/ubuntu
+LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
+
+RUN apt-get update -y && apt-get update -y \
+  && apt-get install --no-install-recommends --no-install-suggests -y vim \
+  && apt-get install --no-install-recommends --no-install-suggests -y net-tools
