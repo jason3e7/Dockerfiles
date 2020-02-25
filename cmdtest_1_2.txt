@@ -1,0 +1,6 @@
+FROM jason3e7/cmdtest:1_1
+LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
+
+RUN echo "3" >> /tmp/temp
+
+CMD echo "4" >> /tmp/temp && cat /tmp/temp

@@ -1,0 +1,6 @@
+FROM jason3e7/ubuntu:develop
+LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
+
+RUN echo "1" >> /tmp/temp
+
+CMD echo "2" >> /tmp/temp && cat /tmp/temp
