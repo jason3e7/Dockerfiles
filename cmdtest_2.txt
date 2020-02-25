@@ -1,4 +1,4 @@
-FROM cmdtest:1
+FROM jason3e7/cmdtest:1
 LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
 
 RUN echo $ETEST && export ETEST="3" && echo $ETEST
