@@ -1,0 +1,6 @@
+FROM jason3e7/ubuntu:develop
+LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
+
+ENV ETEST="1"
+
+CMD echo $ETEST

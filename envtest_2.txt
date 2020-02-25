@@ -1,0 +1,8 @@
+FROM jason3e7/envtest:1
+LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
+
+RUN echo $ETEST \
+  && export ETEST="2" \
+  && echo $ETEST
+
+ENTRYPOINT echo $ETEST
