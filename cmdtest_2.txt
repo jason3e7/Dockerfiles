@@ -1,0 +1,6 @@
+FROM cmdtest:1
+LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
+
+RUN echo $ETEST && export ETEST="3" && echo $ETEST
+
+CMD echo $ETEST && export ETEST="4" && echo $ETEST

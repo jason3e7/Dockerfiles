@@ -1,0 +1,8 @@
+FROM jason3e7/ubuntu:develop
+LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
+
+ENV ETEST="0"
+
+RUN echo $ETEST && export ETEST="1" && echo $ETEST
+
+CMD echo $ETEST && export ETEST="2" && echo $ETEST
