@@ -1,5 +1,4 @@
-* jason3e7/ubunut:18.04, 原生
-  * jason3e7/ubunut:20200224update, base.txt, 20200224更新 
-  * jason3e7/ubunut:latest -> 20200224update
-    * jason3e7/ubunut:develop, develop.txt, 安裝套件
-
+* jason3e7/ubunut:18.04, 原生 
+  * jason3e7/ubunut:latest, base.txt 更新
+    * jason3e7/ubunut:develop, develop.txt, 安裝開發套件
+    * jason3e7/ubunut:web, web 資料夾, 安裝 nginx mysql php-fpm 套件
