@@ -1,4 +1,4 @@
-FROM jason3e7/ubuntu:develop
+FROM jason3e7/ubuntu:latest
 LABEL maintainer="jason3e7 <jason3e7@gmail.com>"
 
 RUN set -x \
